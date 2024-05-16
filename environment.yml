@@ -1,0 +1,21 @@
+name: suncet_web
+channels:
+  - conda-forge-remote
+  - defaults
+
+dependencies:
+  - pip >=22.1
+  - python=3.10
+  - pytest=7.1
+  - pytest-cov=3.0
+  - numpy=1.22
+  - matplotlib=3.5
+  - jupyter=1.0
+  - scipy=1.8.1
+  - astropy=5.1
+  - sunpy=4.0
+  - dash
+  - pip:
+    - opencv-python
+
+prefix: ~/anaconda3
