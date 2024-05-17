@@ -7,7 +7,7 @@ import numpy as np
 app = dash.Dash(__name__)
 
 # Sample data: list of JPEG2000 files
-image_folder = 'path_to_images'
+image_folder = 'images/'
 images = sorted([os.path.join(image_folder, f) for f in os.listdir(image_folder) if f.endswith('.jp2')])
 
 # Function to read and process images

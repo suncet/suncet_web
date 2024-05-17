@@ -16,6 +16,6 @@ dependencies:
   - sunpy=4.0
   - dash
   - pip:
-    - opencv-python
+    - opencv-python=4.7.0.68
 
 prefix: ~/anaconda3
